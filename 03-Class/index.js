@@ -14,8 +14,8 @@ class ProductManager {
 
 	addProduct(title, description, price, thumbnail, code, stock){
 		const isIdemCode = this.products.length ?
-											 this.products.filter(product => product.code === code).length > 0 : 
-											 false
+						   this.products.filter(product => product.code === code).length > 0 : 
+						   false
 
 		// const id = this.uid()
 		
@@ -31,7 +31,7 @@ class ProductManager {
 			}]
 			ProductManager.id++
 		} else {
-				throw new Error('No two codes can be the same')
+			throw new Error('No two codes can be the same')
 		}
 	}
 
@@ -54,4 +54,3 @@ class ProductManager {
 // prueba.addProduct('producto prueba', 'Este es un producto prueba', 200, 'Sin Imagen', 'abc125', 25)
 // prueba.getProducts()
 // prueba.getProductByID(4)
-

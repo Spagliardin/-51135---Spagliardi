@@ -14,8 +14,8 @@ class ProductManager {
 
 	addProduct(title, description, price, thumbnail, code, stock){
 		const isIdemCode = this.products.length ?
-											 this.products.filter(product => product.code === code).length > 0 : 
-											 false
+		this.products.filter(product => product.code === code).length > 0 : 
+		false
 
 		// const id = this.uid()
 		

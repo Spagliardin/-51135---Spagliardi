@@ -1,0 +1,20 @@
+{
+  "name": "be-node-ch",
+  "version": "0.1.0",
+  "description": "challenge-ch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spagliardin/-51135---Spagliardi.git"
+  },
+  "author": "NSpagliardi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spagliardin/-51135---Spagliardi/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/Spagliardin/-51135---Spagliardi#readme"
+}

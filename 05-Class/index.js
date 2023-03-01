@@ -63,11 +63,8 @@ class ProductManager {
 
     } catch (error) {
 
-      if (!parsedProducts) {
-        console.error('Empty File', []);
-      } else {
-        console.error(error);
-      }
+      if (!parsedProducts) console.error('Empty File', []);
+      else console.error(error);
 
     }
   }

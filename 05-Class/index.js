@@ -88,11 +88,8 @@ class ProductManager {
 
     const productbyID = await this.getProductByID(id)
     const updateProduct = Object.keys(productbyID).reduce((obj, key) => {
-      if (product[key]) {
-        obj[key] = product[key]
-      } else {
-        obj[key] = productbyID[key]
-      }
+      if (product[key]) obj[key] = product[key]
+      else obj[key] = productbyID[key]
       return obj
     }, {})
     this.products = await this.deleteProduct(productbyID.id)

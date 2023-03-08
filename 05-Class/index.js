@@ -103,19 +103,19 @@ class ProductManager {
 }
 
 const test = new ProductManager()
-// await test.getProducts()
-// await test.addProduct('producto prueba', 'Este es un producto prueba', 200, 'Sin Imagen', 'abc123', 25)
-// await test.getProducts()
-// await test.getProductByID('1gq772k3s0454c6a3010bb')
-// await test.addProduct('producto test2', 'Este es un producto test 2', 545, 'Sin Imagen', 'abc14', 25)
-// await test.addProduct('producto test3', 'Este es un producto test 3', 11, 'Sin Imagen', 'abc1258', 25)
-// await test.addProduct('producto test4', 'Este es un producto test 4', 35, 'Sin Imagen', 'abc1254', 55)
-// await test.updateProduct('1gq7742o105a36bd80cc10a', {
-// 	title: 'producto prueba cambiado 2',
-// 	description: 'este es el cambio de prueba 2',
-// 	price: '330',
-// 	code: 'abc387',
-// 	stock: 44
-// })
+await test.getProducts()
+await test.addProduct('producto prueba', 'Este es un producto prueba', 200, 'Sin Imagen', 'abc123', 25)
+await test.getProducts()
+await test.getProductByID('1gq772k3s0454c6a3010bb')
+await test.addProduct('producto test2', 'Este es un producto test 2', 545, 'Sin Imagen', 'abc14', 25)
+await test.addProduct('producto test3', 'Este es un producto test 3', 11, 'Sin Imagen', 'abc1258', 25)
+await test.addProduct('producto test4', 'Este es un producto test 4', 35, 'Sin Imagen', 'abc1254', 55)
+await test.updateProduct('1gq7742o105a36bd80cc10a', {
+	title: 'producto prueba cambiado 2',
+	description: 'este es el cambio de prueba 2',
+	price: '330',
+	code: 'abc387',
+	stock: 44
+})
 
-// await test.deleteProduct('1gq7742nt0b01a08b9700f5')
+await test.deleteProduct('1gq7742nt0b01a08b9700f5')
